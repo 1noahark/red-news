@@ -92,6 +92,7 @@ function App() {
         <button className='btn' onClick={() => togglechange()}><img src={lamp} alt="" /></button>
         <button className='rbtn' onClick={() => fetchnews()}><img src={refreshicon} alt="" /></button>
         <News Text={news} textcolor={textcolor}/>
+        <p>Made by Noah</p>
       </div>
     </div>
   );
