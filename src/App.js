@@ -11,7 +11,6 @@ function App() {
   const [news, setnews] = useState('');
   const [bgcolor, setbgcolor] = useState('');
   const [textcolor, settextcolor] = useState('')
-  const [contcolor, setcontcolor] = useState('')
 
   useEffect(() => {
 
